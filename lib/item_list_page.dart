@@ -19,7 +19,7 @@ class _ItemListPageState extends State<ItemListPage> {
     Product(
         productNo: 1,
         productName: "오레오 쿠키",
-        productImageUrl: "https://picsum.photos/id/1/300/300",
+        productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/Image%20(10).jpeg",
         price: 2500),
     Product(
         productNo: 2,
