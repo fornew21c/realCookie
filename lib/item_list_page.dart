@@ -52,7 +52,7 @@ class _ItemListPageState extends State<ItemListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("쿠키 & 스콘"),
+        title: const Text("쿠키 & 스콘 상품"),
         centerTitle: true,
         actions: [
           IconButton(
