@@ -17,15 +17,16 @@ class _MyOrderListPageState extends State<MyOrderListPage> {
   List<Product> productList = [
     Product(
       productNo: 1,
-      productName: "노트북(Laptop)",
-      productImageUrl: "https://picsum.photos/id/1/300/300",
-      price: 600000,
+      productName: "르뱅 쿠키",
+      productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/levainCookie.jpeg",
+      price: 4000,
     ),
+    
     Product(
       productNo: 4,
-      productName: "키보드(Keyboard)",
-      productImageUrl: "https://picsum.photos/id/60/300/300",
-      price: 50000,
+      productName: "화이트 초코 쿠키",
+      productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/WhiteChochoCookie.jpeg",
+      price: 3500,
     ),
   ];
 
@@ -33,20 +34,20 @@ class _MyOrderListPageState extends State<MyOrderListPage> {
     Order(
       orderId: 1,
       productNo: 1,
-      orderDate: "2023-11-24",
-      orderNo: "20231114-123456123",
-      quantity: 2,
-      totalPrice: 1200000,
+      orderDate: "2024-08-24",
+      orderNo: "20240824-123456123",
+      quantity: 10,
+      totalPrice: 50000,
       paymentStatus: "completed",
       deliveryStatus: "delivering",
     ),
     Order(
       orderId: 2,
       productNo: 4,
-      orderDate: "2023-11-24",
-      orderNo: "20231114-141020312",
-      quantity: 3,
-      totalPrice: 150000,
+      orderDate: "2024-08-25",
+      orderNo: "20240825-141020312",
+      quantity: 10,
+      totalPrice: 10000,
       paymentStatus: "waiting",
       deliveryStatus: "waiting",
     ),

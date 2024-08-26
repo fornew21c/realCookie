@@ -19,34 +19,34 @@ class _ItemBasketPageState extends State<ItemBasketPage> {
   List<Product> productList = [
     Product(
         productNo: 1,
-        productName: "오레오 쿠키",
-        productImageUrl: "https://picsum.photos/id/1/300/300",
-        price: 2500),
+        productName: "르뱅 쿠키",
+        productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/levainCookie.jpeg",
+        price: 4000),
     Product(
         productNo: 2,
-        productName: "초코 쿠키",
-        productImageUrl: "https://picsum.photos/id/20/300/300",
-        price: 2500),
+        productName: "오레오 쿠키",
+        productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/OreoCookie.jpeg",
+        price: 3000),
     Product(
         productNo: 3,
-        productName: "르뱅 쿠키",
-        productImageUrl: "https://picsum.photos/id/30/300/300",
+        productName: "초코 쿠키",
+        productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/ChochoCookie.jpeg",
         price: 3500),
     Product(
         productNo: 4,
-        productName: "플레인 쿠키",
-        productImageUrl: "https://picsum.photos/id/60/300/300",
-        price: 2300),
+        productName: "화이트 초코 쿠키",
+        productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/WhiteChochoCookie.jpeg",
+        price: 3500),
     Product(
         productNo: 5,
         productName: "플레인 스콘",
-        productImageUrl: "https://picsum.photos/id/75/200/300",
-        price: 2500),
+        productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/PlainScon.jpeg",
+        price: 3000),
     Product(
         productNo: 6,
         productName: "얼그레이 스콘",
-        productImageUrl: "https://picsum.photos/id/24/200/300",
-        price: 2800),
+        productImageUrl: "https://raw.githubusercontent.com/fornew21c/realCookie/main/images/earlGrayScon.jpeg",
+        price: 3500),
   ];
 
   double totalPrice = 0;
